@@ -6,7 +6,6 @@ def Merge_sort(arr,st,n):            #arr也随着每次调用发生变化
 	Merge_sort(arr_l,0,len(arr_l))
 	Merge_sort(arr_r,0,len(arr_r))
 	Merge(arr,arr_l,arr_r)
-	return arr
 	
 	
 	
